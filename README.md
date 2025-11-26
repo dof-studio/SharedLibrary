@@ -7,7 +7,7 @@ A lightweight wrapper to load dynamic library on Windows/POSIX (Linux/Mac)
 # Simple Usage
 ```C++
 
- using namespace sharedlibrary;
+    using namespace sharedlibrary;
 
     // Creating a library object (lazy loading example)
     auto lib = makeSharedLibrary("./plugins/Srand.dll", true); // Windows, auto binding
