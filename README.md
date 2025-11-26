@@ -2,7 +2,7 @@
 A lightweight wrapper to load dynamic library on Windows/POSIX (Linux/Mac)
 
 # Single File
-`SharedLibrary.hpp`
+`SharedLibrary.hpp` Header Only
 
 # Simple Usage
 ```C++
