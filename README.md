@@ -6,7 +6,7 @@ A lightweight wrapper to load dynamic library on Windows/POSIX (Linux/Mac)
 
 # Simple Usage
 ```C++
-
+int main() {
     using namespace sharedlibrary;
 
     // Creating a library object (lazy loading example)
@@ -36,5 +36,5 @@ A lightweight wrapper to load dynamic library on Windows/POSIX (Linux/Mac)
 
     // RAII Offload
     return 0;
-
+}
 ```
